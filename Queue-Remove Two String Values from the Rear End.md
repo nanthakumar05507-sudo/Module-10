@@ -19,10 +19,22 @@ To write a Python program to:
 4. Remove the last element using `pop()`.
 5. Remove the next last element using `pop()` again.
 6. Display the updated list.
-
 ##  Program:
-Add Code Here
+```
+from collections import deque
+q = deque()
+n=int(input())
+for i in range(n):
+    q.append(input())
+for i in range(2):
+    q.popleft()
+print(q)
+```
 
 ### Output:
+<img width="1045" height="378" alt="image" src="https://github.com/user-attachments/assets/3a33e018-a8bd-4918-8ea7-d835af375a80" />
 
 ## Result:
+Thus,the program is executed successfully
+
+
